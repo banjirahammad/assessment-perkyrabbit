@@ -21,7 +21,7 @@
                             <option value="" selected>Select department...</option>
                                                     @foreach($departments as $item)
                                                         <option
-                                                            {{ $item->id === old('id')? 'selected' : '' }}
+                                                            {{ request()->query('department') == $item->id ? 'selected' : '' }}
                                                             value="{{ $item->id }}"
                                                         >{{ $item->name }}</option>
                                                     @endforeach
