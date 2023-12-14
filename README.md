@@ -10,7 +10,7 @@
 - Clone this repository form this url
 
 ``` 
-git clone https://github.com/banjirahammad/assesment-perkyrabbit.git
+git clone https://github.com/banjirahammad/assessment-perkyrabbit.git
 ```
 
 ## Step 2:
